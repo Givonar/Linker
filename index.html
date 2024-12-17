@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Navigator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <textarea id="inputText" placeholder="Enter links here..."></textarea>
+        <button id="parse">Parse Links</button>
+        <div class="link-display">
+            <input type="text" id="currentLink" readonly>
+            <button id="prevLink">قبلی</button>
+            <button id="nextLink">بعدی</button>
+            <button id="copyLink">کپی</button>
+            <label>
+                <input type="checkbox" id="autoNext">Automatic Next
+            </label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
